@@ -61,8 +61,8 @@ lazy val client = withDefaults(
     .settings(findbugsSettings: _*)
     .settings(
         name := projectName,
-        organization := "org.zalando.nakadi.client",
-        version := "2.0",
+        organization := "de.zalando.whip.nakadi.client",
+        version := "2.0.0-whip",
         crossPaths := false,
         scalaVersion := "2.11.8",
         findbugsReportType := Some(ReportType.FancyHtml),
